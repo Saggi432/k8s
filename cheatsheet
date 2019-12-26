@@ -1,0 +1,46 @@
+apt-get update && apt-get install -y kubectl
+apt-get install bash-completion
+source /etc/bash_completion
+source <(kubectl completion bash)
+Jq, 
+
+-- Install the 
+
+
+Crictl pods
+Crictl ps
+
+Kubeadm init phase certs --config <path_name> (--help)
+
+Etcdctl member list
+Etcdctl member status
+Etcdctl endpoint health
+
+
+YAML SPACE ???
+
+ctrl+B - prefix
+
+prefix + x -- deleting window
+prefix + " -- split horizontally
+prefix + % -- split vertically
+prefix + arrow button
+prefix setw synchronize-panes on -- if needed
+
+
+
+:resize-pane -D (Resizes the current pane down)
+:resize-pane -U (Resizes the current pane upward)
+:resize-pane -L (Resizes the current pane left)
+:resize-pane -R (Resizes the current pane right)
+:resize-pane -D 10 (Resizes the current pane down by 10 cells)
+:resize-pane -U 10 (Resizes the current pane upward by 10 cells)
+:resize-pane -L 10 (Resizes the current pane left by 10 cells)
+:resize-pane -R 10 (Resizes the current pane right by 10 cells)
+Stay in touch
+
+Install cfssl and cfssljson 
+
+Either get them from the kubernetes.io/docs/cluster-administration/certificates
+
+or https://storage.googleapis.com/kubernetes-the-hard-way/cfssl/linux/cfssl
